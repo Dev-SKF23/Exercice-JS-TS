@@ -1,0 +1,47 @@
+/*  EXO A
+Crée une variable note avec une valeur de ton choix (entre 0 et 20).
+Écris une condition qui affiche :
+
+"Excellent" si la note est supérieure ou égale à 16
+"Bien" si la note est entre 10 et 15 (inclus)
+"Insuffisant" si la note est inférieure à 10 */
+
+let note = 20;
+if (note >= 16){
+    console.log("Votre moyenne est:", note, "Mention Excellent")
+}
+else if ( note  >= 10 && note <= 15){
+    console.log("Votre moyenne est:", note ,"Mention Bien")
+}
+else{
+    console.log("Moyenne insuffisante")
+}
+
+/*  EXO B
+Crée deux variables : age (nombre) et aPiece (booléen, true/false — a-t-il une pièce 
+d'identité). Affiche "Accès autorisé" seulement si la personne a au moins 18 ans ET 
+possède une pièce d'identité. Sinon affiche "Accès refusé".*/
+
+let age = 20; 
+let aPiece = true;
+
+if (age >= 18 && aPiece){
+    console.log("Accès autorisé")
+}
+else{
+    console.log("Accès refusé")
+}
+
+/*  EXO C 
+Crée une variable x = 7. Vérifie et affiche si x est un nombre pair ou impair 
+(indice : utilise l'opérateur modulo % qu'on a vu, et souviens-toi que x % 2 === 0 signifie 
+"divisible par 2 sans reste").*/
+
+let x=7;
+console.log("Le reste est:",x%2);
+if(x%2 === 0){
+    console.log("X est pair")
+}
+else{
+    console.log("X est impair")
+}
