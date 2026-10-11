@@ -10,7 +10,7 @@ programma.
 (MultiPrimo) Si modifichi il programma di sopra per calcolare per 10 numeri (generati
 con Math.random()) se si tratta di un numero primo.*/
 
-/*//Sommatoria
+//Sommatoria
 import PromptSync from "prompt-sync";
 const prompt = PromptSync ();
 //Etape 1: on lit n, la limite demandée par l'utilisateur
@@ -23,19 +23,19 @@ while (i<=n){
     somma = somma + i;
     i++;
 }
-console.log("La somma è:", somma);*/
+console.log("La somma è:", somma);
 
-/*//Accumulatore
-let somma: number= 0;
-while (somma<=101){
-    somma = somma + Math.random()*6;
+//Accumulatore
+let somma1: number= 0;
+while (somma1<=101){
+    somma1 = somma1 + Math.random()*6;
 }
-console.log("La somma è:",somma);*/
+console.log("La somma è:",somma);
 
 //Primo
-import PromptSync from"prompt-sync";
-const prompt = PromptSync ();
-let n : number= Number(prompt("n?"))
-if(n/1 && n/n) {
+import PromptSync1 from"prompt-sync";
+const prompt1 = PromptSync1 ();
+let n1 : number= Number(prompt1("n?"))
+if(n1/1 && n1/n1) {
     console.log("nombre permier");
 }
