@@ -92,7 +92,7 @@ function identite<T>(valeur: T): T {
 console.log(identite<number>(5));       // fonctionne avec un number
 console.log(identite<string>("salut")); // fonctionne avec un  */
 
-/*let animal= "chien";
+let animal= "chien";
 
 switch (animal){
   case "chien":
@@ -106,15 +106,5 @@ switch (animal){
     break;
   default:
     console.log("Animal inconnu");
-} */
+} 
 
-let s : string = String(prompt("Che giorno della settimana?"));
-    switch (jours){
-    case "L":
-      console.log("jours feriale");
-    break;
-    case "Sab":
-    case "Dom":
-      console.log("Week-end");
-    break;
-  }
