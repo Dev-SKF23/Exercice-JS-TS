@@ -8,7 +8,7 @@ operatore tra +, -, * e / da tastiera e mostri a video il risultato
 dell’operazione sui due numeri. */
 
 //Pari
-/*console.log("Pari")
+console.log("Pari")
 import PromptSync from "prompt-sync";
 const prompt = PromptSync();
 let n : number = Number(prompt("Valore di n "));
@@ -74,7 +74,7 @@ negato" se la stringa è vuota, altrimenti "accesso consentito".*/
 
 
 //Media
-/*console.log("Media");
+console.log("Media");
 import PromptSync3 from "prompt-sync";
 const prompt3 = PromptSync3();
 let f : number = Number (prompt3("Valore di f "));
@@ -96,11 +96,11 @@ switch(typeof valore){
   case "number":
     console.log("è un numero");
     break;
-}*/
+}
 
 //Accesso
 console.log("Accesso")
-import promptSync from "prompt-sync";
-const prompt = promptSync();
-let pass: string = prompt("Enter password : ");
+import promptSync4 from "prompt-sync";
+const prompt4 = promptSync4();
+let pass: string = prompt4("Enter password : ");
 console.log(pass === "" ? "accesso negato" : "accesso consentito");
