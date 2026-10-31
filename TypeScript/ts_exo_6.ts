@@ -1,4 +1,26 @@
+//perfetto
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
+let y: number = Number(prompt("Inserisci il valore di x:"));
+let p: number = y;
+let trova: boolean = false;
+while (!trova) {
+    let somma: number = 0;
 
+    for (let i = 1; i < p; i++) {
+        if (p % i === 0) {
+            somma = somma + i;
+        }
+    }
+
+    if (somma === p) {
+        trova = true;
+    } else {
+        p++;
+    }
+}
+
+console.log("Numero perfetto trovato:");
  // Ricerca zeri, minimo, e massimo
 console.clear();
 

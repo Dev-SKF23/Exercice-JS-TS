@@ -32,27 +32,3 @@ let x: [string, number] = ["Freeman", 25];
 let m: number[][] = [[3,5], [1, -4], [9]];
 m[0][1]     //5: d'abord le tableau d'indice 0 puis son élément d'indice 1
 */
-
-//perfetto
-import PromptSync from "prompt-sync";
-const prompt = PromptSync();
-let y: number = Number(prompt("Inserisci il valore di x:"));
-let p: number = y;
-let trova: boolean = false;
-while (!trova) {
-    let somma: number = 0;
-
-    for (let i = 1; i < p; i++) {
-        if (p % i === 0) {
-            somma = somma + i;
-        }
-    }
-
-    if (somma === p) {
-        trova = true;
-    } else {
-        p++;
-    }
-}
-
-console.log("Numero perfetto trovato:");
