@@ -87,3 +87,18 @@ uguale. Terminare la l’acquisizione alla lettura di uno zero.
 (Media) Si scriva un programma che legga da tastiera 10 interi e stampi la media
 aritmetica di tutti i valori diversi da zero e di segno uguale all’ultimo valore della sequenza.*/
 
+//Fattoriale
+console.log("Fattoriale")
+import PromptSync2 from "prompt-sync";
+const prompt2 = PromptSync2();
+let y: number = Number(prompt2("Enter y"));
+let Fattoriale: number= 1;
+for (i=1; i<n; i++){
+    Fattoriale= Fattoriale*i
+}
+console.log("Fattoriale=", Fattoriale )
+
+//Asterischi
+import PromptSync3 from "prompt-sync";
+const prompt3 = PromptSync3();
+let z : number = Number(prompt3("Enter z"))
