@@ -18,19 +18,19 @@ do{
 }while(i<5);
 
 //for...of (il fonctionne sur les tableaux et aussi sur les chaines, lettre par lettre)
+//for...of ideal pour parcourir les element du tableau 
 let noms: string[]=["Matt", "Alice", "Bob"];
 for (const nom of noms){
     console.log(nom); 
 }
 
-//for...in
+//for...in  (ideal pour parcourir les indice d'un tableau)
 for(const i in noms){
     console. log(i, noms[i]);
 }
 
 
-/*
-// (A)
+/*// (A)
 for (let i = 2; i <= 8; i += 3) {
     console.log(i);
 }
