@@ -128,5 +128,35 @@ console.log(punti_spesa(["pane", "latte", "sapone", "acqua"])); // 4
 
 console.log(punti_spesa(["pane", "pane", "pane", "latte"])); // 5
 
-console.log(punti_spesa(["pane", "vino"])); // -1
+console.log(punti_spesa(["pane", "vino"])); // -
+
+
+
+//minima_stringa
+function minima_stringa(a: string[]): string {
+    let palindroma: string = "";
+    let lung_car: string = a[0];
+
+    for (let i: number = 0; i < a.length; i++) {
+
+        if (a[i].length < lung_car.length) {
+            lung_car = a[i];
+        }
+
+        palindroma = "";
+
+        for (let j: number = a[i].length - 1; j >= 0; j--) {
+            palindroma = palindroma + a[i][j];
+        }
+
+        if (a[i] === palindroma) {
+            break;
+        }
+    }
+
+    return lung_car;
+}
+
+console.log(minima_stringa(["ciao", "casa", "ora", "anna", "pc"])); // "ora"
+console.log(minima_stringa(["ciao", "casa", "gatto"])); // "ciao"
     
