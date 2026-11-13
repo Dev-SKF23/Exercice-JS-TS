@@ -128,7 +128,7 @@ console.log(punti_spesa(["pane", "latte", "sapone", "acqua"])); // 4
 
 console.log(punti_spesa(["pane", "pane", "pane", "latte"])); // 5
 
-console.log(punti_spesa(["pane", "vino"])); // -
+console.log(punti_spesa(["pane", "vino"])); // -1
 
 
 
